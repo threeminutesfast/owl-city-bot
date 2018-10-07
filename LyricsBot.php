@@ -14,7 +14,7 @@ $APIsettings = array(
 );
 
 /** Set Lyrics Wikia Artist Page here **/
-$artistWikiaLink = "LYRICS_WIKIA_ARTIST_PAGE"; // For example, for Manchester Orchestra: http://lyrics.wikia.com/wiki/Manchester_Orchestra
+$artistWikiaLink = "http://lyrics.wikia.com/wiki/Owl_City"; // For example, for Manchester Orchestra: http://lyrics.wikia.com/wiki/Manchester_Orchestra
 
 // Get list of songs with lyrics from artist page
 $artistLink = substr(strrchr( $artistWikiaLink, '/' ), 1);
